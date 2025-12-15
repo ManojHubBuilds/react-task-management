@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.admin-dashboard {
+  background: #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  width: 90%;
+  border-radius: 12px;
+}
+
+.admin-board {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.tasks-column,
+.users-column {
+  flex: 1;
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tasks-column {
+  border: 2px dashed #6366f1;
+}
+
+.users-column {
+  border: 2px dashed #22c55e;
+}
+
+.task-item {
+  background: #e0f2fe;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: grab;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item:active {
+  cursor: grabbing;
+}
+
+.task-title {
+  font-weight: 600;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: white;
+}
+
+.status.pending {
+  background-color: #f97316;
+}
+
+.status.completed {
+  background-color: #16a34a;
+}
+
+.user-card {
+  background: #dcfce7;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.drop-hint {
+  font-size: 12px;
+  color: #166534;
+  margin-top: 5px;
+}
+
+.task-form {
+  background: #f1f5f9;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+/* Center Login Form */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background: #ffffff;
+  padding: 30px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-form input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
