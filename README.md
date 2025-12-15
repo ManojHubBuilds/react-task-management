@@ -100,7 +100,7 @@ User Flow
 Published URL: (deployed link)
 
 GitHub Repository:
-👉 ( )
+👉 ( https://github.com/ManojHubBuilds/react-task-management.git )
 
 🎉 Completed By
 Manoj Gugulothu
