@@ -40,43 +40,43 @@ User
 --localStorage (data persistence)
 
 📁 Project Structure
-src/
-│── components/
-│   ├── LoginForm.js
-│   ├── AdminDashboard.js
-│   ├── UserDashboard.js
-│   ├── TaskForm.js
-│   ├── TaskItem.js
-│   ├── UserCard.js
-│
-│── contexts/
-│   ├── AuthContext.js
-│
-│── utils/
-│   ├── storage.js
-│
-│── App.js
-│── index.js
-│── App.css
-│── README.md
+>>      src/
+        │── components/
+        │   ├── LoginForm.js
+        │   ├── AdminDashboard.js
+        │   ├── UserDashboard.js
+        │   ├── TaskForm.js
+        │   ├── TaskItem.js
+        │   ├── UserCard.js
+        │
+        │── contexts/
+        │   ├── AuthContext.js
+        │
+        │── utils/
+        │   ├── storage.js
+        │
+        │── App.js
+        │── index.js
+        │── App.css
+        │── README.md
 
 🔐 Default Login Credentials
 Admin
---Username: admin
---Password: admin123
+>>             -Username: admin
+>>             -Password: admin123
 
 Users
---Username: user1
---Password: user123
---Username: user2
---Password: user123
+>>             -Username: user1
+>>             -Password: user123
+>>             -Username: user2
+>>             -Password: user123
 
 🚀 How to Run the Project
 1️⃣ Install Dependencies
-npm install
+>>       npm install
 
 2️⃣ Start the Development Server
-npm start
+>>       npm start
 
                                    The app will run at: http://localhost:3000
 
@@ -100,10 +100,10 @@ User Flow
 Published URL: (deployed link)
 
 GitHub Repository:
-👉 ( https://github.com/ManojHubBuilds/react-task-management.git )
+>>      👉 ( https://github.com/ManojHubBuilds/react-task-management.git )
 
 🎉 Completed By
-Manoj Gugulothu
-Full Stack Developer 
+>>       Manoj Gugulothu
+>>       Full Stack Developer 
 
 🔚 END OF README
